@@ -26,3 +26,13 @@ This means updating the SQL database to reflect the remaining quantity.
 
 Once the update goes through, show the customer the total cost of their purchase.
 
+
+ Below is a demo of the "bamazonCustomer.js" file...
+  - Running `node BamazonCustomer.js` will use MySQL to pull up all the products for sale.
+     - The customer can then choose a product using its ID and also a quantity.
+      ![Customer Order](/image_terminal/first-step.png)
+     - If the inventory has enough items, the order will be processed.
+       ![Order Valid](/image_terminal/order-placed.png)
+       ![Order Valid](/image_terminal/placed-order.png)
+     - If the inventory is lacking, the order will not be processed.
+       ![Order Invalid](/image_terminal/out-of-stock.png)
