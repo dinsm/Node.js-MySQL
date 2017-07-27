@@ -105,7 +105,7 @@ var purchaseItem = function() {
                 });
 
                 var cost = res[0].price * answer.quantity;
-                console.log('\n  Order fulfilled! Your cost is $' + cost.toFixed(2) + '\n');
+                console.log('\n  Order Placed! Your cost is $' + cost.toFixed(2) + '\n');
 
                 // Order completed
                 customerPrompt();
